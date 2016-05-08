@@ -5,7 +5,7 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/scotch-io/node-booklet-code"
+    "url": "https://github.com/ibukunakins/nodestart"
   },
   "dependencies": {
     "ejs": "^2.4.1",

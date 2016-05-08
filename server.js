@@ -24,8 +24,8 @@ app.set('view engine', 'ejs');
 // home page route - popular images
 app.get('/', function(req, res) {
 // use the instagram package to get popular media
-  //ig.tag_media_recent('yorubaDemon', function(err, medias, pagination, remaining, limit) {
-  ig.location_media_recent('224290289', function(err, medias, pagination, remaining, limit) {
+  //ig.tag_media_recent('yorubaDemon', function(err, medias, pagination, remaining, limit) { 224290289 - Abuja
+  ig.location_media_recent('16190277', function(err, medias, pagination, remaining, limit) {
     // render the home page and pass in the popular images
   res.render('pages/index', { grams: medias });
 });
