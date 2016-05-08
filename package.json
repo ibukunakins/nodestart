@@ -1,0 +1,20 @@
+{
+  "name": "node-booklet-code",
+  "version": "1.0.0",
+  "description": "The code repository for the Node booklet.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scotch-io/node-booklet-code"
+  },
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "instagram-node": "^0.5.8",
+    "mongoose": "latest",
+    "nodemon": "^1.9.2"
+  },
+  "author": "Authentic One",
+  "license": "MIT",
+  "homepage": "https://ibukunakins.com"
+}
